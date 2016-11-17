@@ -1,0 +1,18 @@
+1. isActiveLogicSatisfied与isConditionLogicSatisfied的计算，应当移到它们下面的两个if语句里面。
+因为满足两个if语句的时刻比较少，且判断if比检查logic快得多。任务多的时候能节省一些性能。
+2. 不要使用跨场景节点。一方面并非项目里所有场景都会用到它，需要管理它的生存周期；
+另一方面node的schedule有时会因为cocos引擎的一些操作（比如game.pause(),pauseTarget()等）停止响应，
+而我们并不希望全局的schedule被停止响应。
+3. 任务接受时存储用户的信息需要更好的方法
+-----------------------------------------------------------
+新任务1：将Timer改为普通的cc.Class挂载到app下，Timer的UI制作为Prefab来加载，。
+并用setInterval/clearInterval或者setTimeout/clearTimeout替代schedule。
+
+新任务2：使用我在App.js里添加的简单的全局事件系统，来完成user属性修改后通知mission的事件。
+
+新任务3：为存储user在任务接受时刻的数据快照提供更完善的方法
+
+新任务4：我一直没有检验你的程序逻辑，事实上程序复杂以后也不可能人工检验逻辑。
+参照TestScene，为自己的任务系统写几个单元测试。
+Jasmine文档：https://jasmine.github.io/2.0/introduction.html。
+测试信息被我输出到控制台了，打开浏览器Console查看。

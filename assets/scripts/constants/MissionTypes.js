@@ -1,0 +1,20 @@
+const MISSION_STATE = cc.Enum({
+   NOT_ACCEPT:0,
+   ACCEPTED:1,
+   FINISHED:2
+});
+const LOGIC_TYPE = cc.Enum({
+    ALL_RULES_SATISFIED:0,
+    ANY_RULES_SATISFIED:1
+});
+const REPEAT_TYPE = cc.Enum({
+    NOT_REPEAT:0 ,
+    REPEAT_BEGIN:1,
+    REPEAT_AFTER:2
+});
+
+module.exports = {
+    MISSION_STATE: MISSION_STATE,
+    LOGIC_TYPE: LOGIC_TYPE,
+    REPEAT_TYPE:REPEAT_TYPE
+}

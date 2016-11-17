@@ -1,0 +1,12 @@
+{
+  "collision-matrix": [
+    [
+      true
+    ]
+  ],
+  "excluded-modules": [],
+  "group-list": [
+    "default"
+  ],
+  "start-scene": "47de95ae-7cfb-4d59-8244-d5e33f8a4685"
+}
