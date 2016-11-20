@@ -50,7 +50,7 @@ var User = cc.Class({
             userData[key] = data[key];
         }
         let self = this;
-        this._data.sub('set','user',function (e) {app.emit('userInfoChange')});
+        this._data.sub('set','user',function (e) {app.emit('updateUserMissionState')});
         
         this._data.set('user',userData);
         

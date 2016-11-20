@@ -156,7 +156,7 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "1f32fc2f-a750-4764-a9a8-8659bffe35ed"
     },
     "fileId": "294dcr+rxFEoJB874pFE3qe",
     "sync": false
@@ -241,7 +241,7 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "1f32fc2f-a750-4764-a9a8-8659bffe35ed"
     },
     "fileId": "a5389C7N2ZMRo0u8vw3eEVg",
     "sync": false
@@ -270,7 +270,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 97.87,
-      "height": 40
+      "height": 20
     },
     "_children": [],
     "_rotationX": 0,
@@ -310,8 +310,8 @@
     "_enabled": true,
     "_useOriginalSize": false,
     "_actualFontSize": 40,
-    "_fontSize": 40,
-    "_lineHeight": 40,
+    "_fontSize": 20,
+    "_lineHeight": 20,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -326,7 +326,7 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "1f32fc2f-a750-4764-a9a8-8659bffe35ed"
     },
     "fileId": "b88f2rfd75FMaBp7eLhDrEc",
     "sync": false
@@ -355,7 +355,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 97.87,
-      "height": 40
+      "height": 20
     },
     "_children": [],
     "_rotationX": 0,
@@ -395,8 +395,8 @@
     "_enabled": true,
     "_useOriginalSize": false,
     "_actualFontSize": 40,
-    "_fontSize": 40,
-    "_lineHeight": 40,
+    "_fontSize": 20,
+    "_lineHeight": 20,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -411,7 +411,7 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "1f32fc2f-a750-4764-a9a8-8659bffe35ed"
     },
     "fileId": "d397doHlydJN5wwAVxz2HLD",
     "sync": false
@@ -440,7 +440,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 97.87,
-      "height": 40
+      "height": 20
     },
     "_children": [],
     "_rotationX": 0,
@@ -480,8 +480,8 @@
     "_enabled": true,
     "_useOriginalSize": false,
     "_actualFontSize": 40,
-    "_fontSize": 40,
-    "_lineHeight": 40,
+    "_fontSize": 20,
+    "_lineHeight": 20,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -496,7 +496,7 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "1f32fc2f-a750-4764-a9a8-8659bffe35ed"
     },
     "fileId": "d3ed39X+X9F9696u/mgpj6e",
     "sync": false
@@ -531,7 +531,7 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "1f32fc2f-a750-4764-a9a8-8659bffe35ed"
     },
     "fileId": "490eesYKU5BzrujZd1hNOwa",
     "sync": false

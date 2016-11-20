@@ -7,33 +7,30 @@ const App = cc.Class({
     properties: {
 
     },
-    
-    ctor:function(){
+
+    ctor: function() {
 
     },
-    
-    init(){
+
+    init() {
+        this.eventTarget = new cc.EventTarget();
         this.userController = new UserController();
         this.missionController = new MissionController();
-        this.userMissionController = new UserController();
+        this.userMissionController = new UserMissionController();
         this.Timer = new Timer();
-        this.eventTarget = new cc.EventTarget();
-        let self = this;
-        this.on('userStateChange',function(){
-            self.updateUserMissionState();
-        });
+
     },
-    
-    on(type, callback){
+
+    on(type, callback) {
         this.eventTarget.on(type, callback, this.eventTarget, false);
     },
-    
-    off(type, callback){
+
+    off(type, callback) {
         this.eventTarget.off(type, callback, this.eventTarget, false);
     },
-    
-    emit(type, data){
-        this.eventTarget.emit(type,data);
+
+    emit(type, data) {
+        this.eventTarget.emit(type, data);
     }
 
 });
